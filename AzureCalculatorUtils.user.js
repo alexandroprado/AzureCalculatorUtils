@@ -230,6 +230,6 @@ $(document).ready(function(){
     }
 
     //search for save button and when it exists then run scanitems - every 1s for 9s...
-    waitForElementToDisplay(".save-button",function(){scanitems();},1000,15000);
+    waitForElementToDisplay(".save-button",function(){scanitems();},1000,12000);
 
 });
